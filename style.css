@@ -1,0 +1,45 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  position: absolute;
+  background-color: darkblue;
+  display: flex;
+  color: white;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.head {
+  background-color: darkblue;
+}
+
+.first {
+  position: relative;
+  left: 50px;
+  color: lightgreen;
+}
+
+.second li {
+  position: relative;
+  color: white;
+  display: inline-block;
+  left: 900px;
+  top: 15px;
+}
+
+.list {
+  word-spacing: 50px;
+}
+
+main h1{
+  position: relative;
+  top: 100px;
+  color: white;
+}
