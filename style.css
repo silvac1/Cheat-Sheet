@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  position: fixed;
+  position: absolute;
   background-color: darkblue;
   display: flex;
   color: white;
@@ -116,4 +116,87 @@ section p {
 
 .section {
   line-height: 2em; 
+}
+
+#editor-one {
+  border-radius: 5px;
+  position: absolute;
+  width: 50%;
+  color: green;
+  background-color: gray;
+  top: 940px;
+  left: 150px;
+}
+
+#editor-one p {
+  position: relative;
+  left: 20px;
+  top: 0px;
+}
+
+article {
+  position: relative;
+  top: 80px;
+}
+
+.paragragh h3 {
+  position: relative;
+  top: 310px;
+}
+
+.paragragh p {
+  position: relative;
+  top: 310px;
+}
+
+#editor-two {
+  border-radius: 5px;
+  position: absolute;
+  width: 50%;
+  color: green;
+  background-color: gray;
+  top: 1140px;
+  left: 150px;
+}
+
+#editor-two p {
+  position: relative;
+  left: 20px;
+  top: 0px;
+}
+
+.inform p {
+  position: relative;
+  top: 390px;
+}
+
+.put-together {
+  position: relative;
+  top: 270px;
+}
+
+.put-together p {
+  position: relative;
+  top: 10px;
+}
+
+#editor-three {
+  border-radius: 5px;
+  position: absolute;
+  width: 50%;
+  color: green;
+  background-color: gray;
+  top: 240px;
+  left: 150px;
+}
+
+#editor-three p {
+  position: relative;
+  left: 20px;
+  top: 0px;
+}
+
+.second-body {
+  position: absolute;
+  left: 20px;
 }
