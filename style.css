@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   background-color: darkblue;
   display: flex;
   color: white;
@@ -38,8 +38,82 @@ body {
   word-spacing: 50px;
 }
 
+main {
+  color: white;
+}
+
 main h1{
+  text-align: center;
   position: relative;
   top: 100px;
-  color: white;
+}
+
+main h2 {
+  position: relative;
+  top: 110px;
+  left: 50px;
+}
+
+main h3 {
+  position: relative;
+  top: 125px;
+  left: 90px;
+}
+
+main p {
+  position: relative;
+  top: 120px;
+  left: 80px;
+}
+
+span {
+  color: green;
+}
+
+.editor {
+  border-radius: 5px;
+  position: absolute;
+  width: 50%;
+  color: green;
+  background-color: gray;
+  top: 360px;
+  left: 150px;
+}
+
+.editor p {
+  position: relative;
+  left: 20px;
+  top: 0px;
+}
+
+.headings h3 {
+  position: relative;
+  top: 225px;
+}
+
+.headings p {
+  position: relative;
+  top: 225px;
+}
+
+.headings ul li {
+  position: relative;
+  top: 225px;
+  left: 140px
+}
+
+.body {
+  position: relative;
+  top: 120px;
+  left: 120px;
+}
+
+section p {
+  position: relative;
+  top: 230px;
+  left: 120px;
+}
+
+.section {
+  line-height: 2em; 
 }
